@@ -1,5 +1,7 @@
 # svenska-pii
 
+[![test](https://github.com/farrebutterfly-rgb/svenska-pii/actions/workflows/test.yml/badge.svg)](https://github.com/farrebutterfly-rgb/svenska-pii/actions/workflows/test.yml) [![codeql](https://github.com/farrebutterfly-rgb/svenska-pii/actions/workflows/codeql.yml/badge.svg)](https://github.com/farrebutterfly-rgb/svenska-pii/actions/workflows/codeql.yml) [![supply-chain](https://github.com/farrebutterfly-rgb/svenska-pii/actions/workflows/supply-chain.yml/badge.svg)](https://github.com/farrebutterfly-rgb/svenska-pii/actions/workflows/supply-chain.yml)
+
 Swedish PII recognizers with real check-digit validation. Pure Python, standard library only, with an optional [Microsoft Presidio](https://github.com/microsoft/presidio) integration.
 
 > **Svenska:** `svenska-pii` hittar svenska personuppgifter i text: personnummer, samordningsnummer, organisationsnummer, bankgiro, plusgiro, svenskt IBAN och kontonummer, plus e-post, telefon, gatuadress och postnummer. Varje träff kontrolleras med kontrollsiffra, datum eller sammanhang, så datum, fakturanummer och belopp flaggas inte. `dom()` ger ett beslut för utgående text: stoppa vid hårda typer, eller när kontaktuppgifter förekommer i mängd som i ett register. Bara standardbiblioteket; Presidio är valfritt.

@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "svenska-pii"
+version = "0.1.0"
+description = "Swedish PII recognizers with check-digit validation: personnummer, samordningsnummer, orgnr, bankgiro, plusgiro, IBAN, account numbers. Optional Presidio integration."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "HolgerAI AB" }]
+keywords = ["pii", "gdpr", "swedish", "personnummer", "presidio", "anonymization", "dlp", "luhn"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Natural Language :: Swedish",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Security",
+    "Topic :: Text Processing",
+    "Typing :: Typed",
+]
+dependencies = []
+
+[project.optional-dependencies]
+presidio = ["presidio-analyzer>=2.2"]
+dev = ["pytest>=7"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/svenska_pii"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src/svenska_pii", "tests", "scripts", "README.md", "LICENSE", "pyproject.toml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

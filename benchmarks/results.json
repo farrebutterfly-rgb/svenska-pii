@@ -1,0 +1,293 @@
+{
+  "seed": 2026,
+  "positives": 1350,
+  "decoys": 1500,
+  "results": {
+    "presidio": {
+      "recall": {
+        "SE_PERSONNUMMER": 1.0,
+        "SE_SAMORDNINGSNUMMER": 1.0,
+        "SE_ORGNR": 1.0,
+        "SE_BANKGIRO": 0.01,
+        "SE_PLUSGIRO": 0.7266666666666667,
+        "SE_IBAN": 0.735
+      },
+      "caught": {
+        "SE_PERSONNUMMER": 400,
+        "SE_SAMORDNINGSNUMMER": 100,
+        "SE_ORGNR": 300,
+        "SE_BANKGIRO": 2,
+        "SE_PLUSGIRO": 109,
+        "SE_IBAN": 147
+      },
+      "typed": {
+        "SE_PERSONNUMMER": 0,
+        "SE_SAMORDNINGSNUMMER": 0,
+        "SE_ORGNR": 0,
+        "SE_BANKGIRO": 0,
+        "SE_PLUSGIRO": 0,
+        "SE_IBAN": 0
+      },
+      "positives": {
+        "SE_PERSONNUMMER": 400,
+        "SE_SAMORDNINGSNUMMER": 100,
+        "SE_ORGNR": 300,
+        "SE_BANKGIRO": 200,
+        "SE_PLUSGIRO": 150,
+        "SE_IBAN": 200
+      },
+      "false_alarms": {
+        "L\u00f6pnummer": 90,
+        "Ange OCR": 85,
+        "Referens": 121,
+        "Build": 101,
+        "Version": 51,
+        "Kontrollera nummer": 101,
+        "M\u00f6tet \u00e4r": 102,
+        "Order": 1,
+        "Artikel": 1,
+        "Beloppet \u00e4r": 2,
+        "M\u00e4t": 1,
+        "\u00c4rende": 2
+      },
+      "decoys": {
+        "Leverans": 102,
+        "L\u00f6pnummer": 90,
+        "Order": 110,
+        "Beloppet \u00e4r": 92,
+        "Version": 89,
+        "Kortet slutar p\u00e5": 105,
+        "M\u00e4t": 110,
+        "Ange OCR": 85,
+        "\u00c4rende": 107,
+        "Artikel": 86,
+        "Referens": 121,
+        "Build": 101,
+        "Kontrollera nummer": 101,
+        "M\u00f6tet \u00e4r": 102,
+        "Fakturanummer": 99
+      },
+      "false_alarm_types": {
+        "US_DRIVER_LICENSE": 504,
+        "US_BANK_NUMBER": 384,
+        "PHONE_NUMBER": 154,
+        "DATE_TIME": 102,
+        "CREDIT_CARD": 53,
+        "US_SSN": 20,
+        "US_PASSPORT": 20,
+        "UK_NHS": 17,
+        "US_ITIN": 2
+      },
+      "ms_per_text": 0.5955363385964829
+    },
+    "presidio>=0.5": {
+      "recall": {
+        "SE_PERSONNUMMER": 0.0525,
+        "SE_SAMORDNINGSNUMMER": 0.15,
+        "SE_ORGNR": 0.06333333333333334,
+        "SE_BANKGIRO": 0.0,
+        "SE_PLUSGIRO": 0.0,
+        "SE_IBAN": 0.735
+      },
+      "caught": {
+        "SE_PERSONNUMMER": 21,
+        "SE_SAMORDNINGSNUMMER": 15,
+        "SE_ORGNR": 19,
+        "SE_BANKGIRO": 0,
+        "SE_PLUSGIRO": 0,
+        "SE_IBAN": 147
+      },
+      "typed": {
+        "SE_PERSONNUMMER": 0,
+        "SE_SAMORDNINGSNUMMER": 0,
+        "SE_ORGNR": 0,
+        "SE_BANKGIRO": 0,
+        "SE_PLUSGIRO": 0,
+        "SE_IBAN": 0
+      },
+      "positives": {
+        "SE_PERSONNUMMER": 400,
+        "SE_SAMORDNINGSNUMMER": 100,
+        "SE_ORGNR": 300,
+        "SE_BANKGIRO": 200,
+        "SE_PLUSGIRO": 150,
+        "SE_IBAN": 200
+      },
+      "false_alarms": {
+        "Referens": 27,
+        "M\u00f6tet \u00e4r": 102,
+        "Ange OCR": 28,
+        "L\u00f6pnummer": 11,
+        "Kontrollera nummer": 4
+      },
+      "decoys": {
+        "Leverans": 102,
+        "L\u00f6pnummer": 90,
+        "Order": 110,
+        "Beloppet \u00e4r": 92,
+        "Version": 89,
+        "Kortet slutar p\u00e5": 105,
+        "M\u00e4t": 110,
+        "Ange OCR": 85,
+        "\u00c4rende": 107,
+        "Artikel": 86,
+        "Referens": 121,
+        "Build": 101,
+        "Kontrollera nummer": 101,
+        "M\u00f6tet \u00e4r": 102,
+        "Fakturanummer": 99
+      },
+      "false_alarm_types": {
+        "DATE_TIME": 102,
+        "CREDIT_CARD": 53,
+        "UK_NHS": 17
+      },
+      "ms_per_text": 0.779133907017539
+    },
+    "svenska-pii": {
+      "recall": {
+        "SE_PERSONNUMMER": 1.0,
+        "SE_SAMORDNINGSNUMMER": 1.0,
+        "SE_ORGNR": 1.0,
+        "SE_BANKGIRO": 1.0,
+        "SE_PLUSGIRO": 1.0,
+        "SE_IBAN": 1.0
+      },
+      "caught": {
+        "SE_PERSONNUMMER": 400,
+        "SE_SAMORDNINGSNUMMER": 100,
+        "SE_ORGNR": 300,
+        "SE_BANKGIRO": 200,
+        "SE_PLUSGIRO": 150,
+        "SE_IBAN": 200
+      },
+      "typed": {
+        "SE_PERSONNUMMER": 400,
+        "SE_SAMORDNINGSNUMMER": 100,
+        "SE_ORGNR": 300,
+        "SE_BANKGIRO": 200,
+        "SE_PLUSGIRO": 150,
+        "SE_IBAN": 200
+      },
+      "positives": {
+        "SE_PERSONNUMMER": 400,
+        "SE_SAMORDNINGSNUMMER": 100,
+        "SE_ORGNR": 300,
+        "SE_BANKGIRO": 200,
+        "SE_PLUSGIRO": 150,
+        "SE_IBAN": 200
+      },
+      "false_alarms": {
+        "Ange OCR": 4,
+        "Kontrollera nummer": 10,
+        "Referens": 14,
+        "Build": 10
+      },
+      "decoys": {
+        "Leverans": 102,
+        "L\u00f6pnummer": 90,
+        "Order": 110,
+        "Beloppet \u00e4r": 92,
+        "Version": 89,
+        "Kortet slutar p\u00e5": 105,
+        "M\u00e4t": 110,
+        "Ange OCR": 85,
+        "\u00c4rende": 107,
+        "Artikel": 86,
+        "Referens": 121,
+        "Build": 101,
+        "Kontrollera nummer": 101,
+        "M\u00f6tet \u00e4r": 102,
+        "Fakturanummer": 99
+      },
+      "false_alarm_types": {
+        "SE_ORGNR": 16,
+        "SE_PERSONNUMMER": 11,
+        "SE_PHONE": 10,
+        "SE_SAMORDNINGSNUMMER": 1
+      },
+      "ms_per_text": 0.02352758877192859
+    },
+    "combined": {
+      "recall": {
+        "SE_PERSONNUMMER": 1.0,
+        "SE_SAMORDNINGSNUMMER": 1.0,
+        "SE_ORGNR": 1.0,
+        "SE_BANKGIRO": 1.0,
+        "SE_PLUSGIRO": 1.0,
+        "SE_IBAN": 1.0
+      },
+      "caught": {
+        "SE_PERSONNUMMER": 400,
+        "SE_SAMORDNINGSNUMMER": 100,
+        "SE_ORGNR": 300,
+        "SE_BANKGIRO": 200,
+        "SE_PLUSGIRO": 150,
+        "SE_IBAN": 200
+      },
+      "typed": {
+        "SE_PERSONNUMMER": 400,
+        "SE_SAMORDNINGSNUMMER": 100,
+        "SE_ORGNR": 300,
+        "SE_BANKGIRO": 200,
+        "SE_PLUSGIRO": 150,
+        "SE_IBAN": 200
+      },
+      "positives": {
+        "SE_PERSONNUMMER": 400,
+        "SE_SAMORDNINGSNUMMER": 100,
+        "SE_ORGNR": 300,
+        "SE_BANKGIRO": 200,
+        "SE_PLUSGIRO": 150,
+        "SE_IBAN": 200
+      },
+      "false_alarms": {
+        "L\u00f6pnummer": 90,
+        "Ange OCR": 85,
+        "Referens": 121,
+        "Build": 101,
+        "Version": 51,
+        "Kontrollera nummer": 101,
+        "M\u00f6tet \u00e4r": 102,
+        "Order": 1,
+        "Artikel": 1,
+        "Beloppet \u00e4r": 2,
+        "M\u00e4t": 1,
+        "\u00c4rende": 2
+      },
+      "decoys": {
+        "Leverans": 102,
+        "L\u00f6pnummer": 90,
+        "Order": 110,
+        "Beloppet \u00e4r": 92,
+        "Version": 89,
+        "Kortet slutar p\u00e5": 105,
+        "M\u00e4t": 110,
+        "Ange OCR": 85,
+        "\u00c4rende": 107,
+        "Artikel": 86,
+        "Referens": 121,
+        "Build": 101,
+        "Kontrollera nummer": 101,
+        "M\u00f6tet \u00e4r": 102,
+        "Fakturanummer": 99
+      },
+      "false_alarm_types": {
+        "US_DRIVER_LICENSE": 504,
+        "US_BANK_NUMBER": 384,
+        "PHONE_NUMBER": 154,
+        "DATE_TIME": 102,
+        "CREDIT_CARD": 53,
+        "US_SSN": 20,
+        "US_PASSPORT": 20,
+        "UK_NHS": 17,
+        "SE_ORGNR": 16,
+        "SE_PERSONNUMMER": 11,
+        "SE_PHONE": 10,
+        "US_ITIN": 2,
+        "SE_SAMORDNINGSNUMMER": 1
+      },
+      "ms_per_text": 0.793790785263143
+    }
+  }
+}
